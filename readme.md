@@ -272,6 +272,7 @@
 - [grunt](http://gruntjs.com) - Task runner that can perform repetitive tasks like minification, compilation, unit testing, linting, etc.
 - [start](https://github.com/start-runner/start) - Simple tasks runner powered by composable functions and promise chaining.
 - [ygor](https://github.com/shannonmoeller/ygor) - A promising task runner for when `npm run` isn't enough and everything else is too much.
+- [Fly](https://github.com/bucaran/fly) - Modern build system based in co-routines, generators and promises.
 
 
 ### Hardware
@@ -290,7 +291,7 @@
 - [handlebars.js](https://github.com/wycats/handlebars.js) - A superset of Mustache templates which adds powerful features like helpers and more advanced blocks.
 - [hogan.js](http://twitter.github.io/hogan.js/) - Twitter's small, fast, phase-separated compiler for Mustache templates.
 - [EJS](https://github.com/mde/ejs) - Simple unopinionated templating language.
-- [Jade](https://github.com/jadejs/jade) - High-performance template engine heavily influenced by Haml.
+- [Pug](https://github.com/pugjs/pug) - High-performance template engine heavily influenced by Haml.
 
 
 ### Web frameworks
@@ -340,6 +341,7 @@
 - [fs-jetpack](https://github.com/szwacz/fs-jetpack) - Completely redesigned file system API for convenience in everyday use.
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
 - [pkg-dir](https://github.com/sindresorhus/pkg-dir) - Find the root directory of an npm package.
+- [sander](https://github.com/rich-harris/sander) - Promise-based replacement for the `fs` module.
 
 
 ### Control flow
@@ -534,7 +536,7 @@
 	- [PostgreSQL](https://github.com/brianc/node-postgres) - PostgreSQL client. Pure JavaScript and native libpq bindings.
 	- [MySQL](https://github.com/felixge/node-mysql) - MySQL client.
 	- [Redis](https://github.com/luin/ioredis) - Redis client.
-	- [nano](https://github.com/dscape/nano) - A minimalistic client for CouchDB.
+	- [nano](https://github.com/dscape/nano) - CouchDB client.
 - ODM / ORM
 	- [Bookshelf](http://bookshelfjs.org) - ORM for PostgreSQL, MySQL and SQLite3 in the style of Backbone.js.
 	- [Massive](https://github.com/robconery/massive-js) - PostgreSQL data access tool.
@@ -756,6 +758,7 @@
 - [parent-module](https://github.com/sindresorhus/parent-module) - Get the path of the parent module.
 - [resolve-from](https://github.com/sindresorhus/resolve-from) - Resolve the path of a module like `require.resolve()` but from a given path.
 - [simplecrawler](https://github.com/cgiffard/node-simplecrawler) - Event driven web crawler.
+- [jsdom](https://github.com/tmpvar/jsdom) - JavaScript implementation of HTML and the DOM.
 
 
 ## Resources
@@ -779,6 +782,11 @@
 - [Error Handling in Node.js](http://www.joyent.com/developers/node/design/errors)
 - [Teach Yourself Node.js in 10 Steps](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps)
 - [Mastering the filesystem in Node.js](https://medium.com/@yoshuawuyts/mastering-the-filesystem-in-node-js-4706b7cb0801)
+- [Semver: A Primer](https://nodesource.com/blog/semver-a-primer/)
+- [Semver: Tilde and Caret](https://nodesource.com/blog/semver-tilde-and-caret/)
+- [Why Asynchronous?](https://nodesource.com/blog/why-asynchronous/)
+- [Understanding the Node.js Event Loop](https://nodesource.com/blog/understanding-the-nodejs-event-loop/)
+- [Understanding Object Streams](https://nodesource.com/blog/understanding-object-streams/)
 
 ### Newsletters
 
